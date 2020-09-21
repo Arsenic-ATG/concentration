@@ -10,15 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    lazy var game: concetration = concetration(numberOfPairsOfCards: (cardButtons.count+1)/2)
+    lazy var game: concentration = concentration(numberOfPairsOfCards: (cardButtons.count+1)/2)
     
     var flipCount = 0 {
         didSet{
             FlipCountLabel.text = "Flips: \(flipCount)"
         }
     }
-    
-    var emojiChoices: Array<String> = ["🎃","🎃","👻","👻"]
     
     @IBAction func touchCard(_ sender: UIButton) {
         flipCount += 1
@@ -52,8 +50,16 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var FlipCountLabel: UILabel!
     
+    var emoji = [Int:String]()
+    
+    var emojiChoices: Array<String> = ["🎃","🦇","👻","👹","😈"]
+    
+    
     func emoji(for card : Card) -> String {
-        return "?"
+        if emoji[card.identifier] == nil, emojiChoices.count > 0 {
+            let randomIndex = Int(arc4random_uniform(UInt32(emojiChoices.count)))
+            emoji[card.identifier] = emojiChoices.remove(at: randomIndex)
+        }
+        return emoji[card.identifier] ?? "?"
     }
 }
-
