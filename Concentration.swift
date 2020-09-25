@@ -8,7 +8,7 @@
 
 import Foundation
 
-class concentration
+struct concentration
 {
     private(set) var cards = [Card]()
     
@@ -35,7 +35,7 @@ class concentration
         }
     }
     
-    func chooseCard(at index: Int){
+    mutating func chooseCard(at index: Int){
         if !cards[index].isMatched {
             if let matchIndex = indexOfOneAndOnlyFaceUpCard, matchIndex != index {
                 // check if cards match
