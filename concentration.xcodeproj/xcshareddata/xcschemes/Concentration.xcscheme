@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FAD47BC82514DFAE00B776BB"
-               BuildableName = "Concetration.app"
+               BuildableName = "Concentration.app"
                BlueprintName = "Concetration"
                ReferencedContainer = "container:concentration.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAD47BC82514DFAE00B776BB"
-            BuildableName = "Concetration.app"
+            BuildableName = "Concentration.app"
             BlueprintName = "Concetration"
             ReferencedContainer = "container:concentration.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAD47BC82514DFAE00B776BB"
-            BuildableName = "Concetration.app"
+            BuildableName = "Concentration.app"
             BlueprintName = "Concetration"
             ReferencedContainer = "container:concentration.xcodeproj">
          </BuildableReference>
