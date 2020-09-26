@@ -44,7 +44,7 @@
 		FAD47BC02514DFAE00B776BB = {
 			isa = PBXGroup;
 			children = (
-				FAD47BCB2514DFAE00B776BB /* Concetration */,
+				FAD47BCB2514DFAE00B776BB /* Concentration */,
 				FAD47BCA2514DFAE00B776BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAD47BCB2514DFAE00B776BB /* Concetration */ = {
+		FAD47BCB2514DFAE00B776BB /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
 				FAD47BCC2514DFAE00B776BB /* AppDelegate.swift */,
@@ -70,7 +70,7 @@
 				FA4C68172517726B00E5E07D /* card.swift */,
 				FAD47BDA2514DFB100B776BB /* Info.plist */,
 			);
-			path = Concetration;
+			path = Concentration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
