@@ -139,7 +139,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="8oa-No-cRL" firstAttribute="top" relation="greaterThanOrEqual" secondItem="eod-rk-7Vx" secondAttribute="bottom" constant="8" symbolic="YES" id="1Aw-ik-7w9"/>
                             <constraint firstItem="eod-rk-7Vx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VIW-Sp-4aB"/>
